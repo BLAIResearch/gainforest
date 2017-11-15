@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>GainForest :: Care</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="" />
+		<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<meta charset utf="8">
+        <!--font-awsome-css-->
+           <link rel="stylesheet" href="css/font-awesome.min.css"> 
+		<!--bootstrap-->
+			<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    	<!--custom css-->
+			<link href="css/style.css" rel="stylesheet" type="text/css"/>
+			<link rel="stylesheet" href="css/percircle.css">
+        <!--component-css-->
+			<script src="js/jquery-2.1.4.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			 <!--script-->
+			 <script src="js/modernizr.custom.js"></script>
+            <script src="js/bigSlide.js"></script>
+            <script>
+				$(document).ready(function() {
+				$('.menu-link').bigSlide();
+				});
+            </script>
+     <script src="web3js/web3.v2.js"></script>
+    <script src="web3js/provider_web.js"></script>
+
+
+
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map77 {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+
+
+
+			<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+            <!--script-->
+			<!-- swipe box js -->
+<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+
+			
+		<!--script-->
+		<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    </head>
+<body>
+
+
+
+
+
+<div class="body-back">
+	<div class="masthead pdng-stn1">
+		<div id="menu" class="panel" role="navigation">
+			<div class="wrap-content">
+				<div class="profile-menu text-center">
+					<img class="img-circle border-effect" src="images/pic3.png" alt=" ">
+						<h3>Juan Do Santos</h3>
+						<p>Carer</p>
+						<div class="pro-menu">
+							<div class="logo">
+								
+							</div>
+				
+
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="phone-box wrap push" id="home">
+			<div class="menu-notify">
+				<div class="profile-left">
+					<a href="#menu" class="menu-link"><i class="fa fa-list-ul"></i></a>
+				</div>
+				<div class="Profile-mid">
+					<h5 class="pro-link">Carer</h5>
+				</div>
+				<div class="Profile-right">
+					<div id="dd1" class="wrapper-dropdown-1" tabindex="1"><i class="fa fa-user"></i>
+						<ul class="dropdown">
+							<li><a href="#">Edit Profile </a></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Activity log</a></li>
+							<li><a href="#">Log Out</a></li>
+						</ul>
+							<script type="text/javascript">
+														function DropDown(el) {
+															this.dd = el;
+															this.initEvents();
+														}
+														DropDown.prototype = {
+															initEvents : function() {
+																var obj = this;
+											
+																obj.dd.on('click', function(event){
+																	$(this).toggleClass('active');
+																	event.stopPropagation();
+																});	
+															}
+														}
+														$(function() {
+											
+															var dd = new DropDown( $('#dd1') );
+											
+															$(document).click(function() {
+																// all dropdowns
+																$('.wrapper-dropdown-1').removeClass('active');
+															});
+											
+														});
+							</script>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div> 
+			<div class="details-grid">
+				<div class="details-shade">
+						<div class="details-right">
+							<h3 style='font-size: 3em;  color: white;
+    text-shadow:    -1px -1px 0 #000,    1px -1px 0 #000,    -1px 1px 0 #000, 1px 1px 0 #000;'>GainForest</h3>
+							
+
+							<h4 style='  color: white;
+    text-shadow:    -1px -1px 0 #000,    1px -1px 0 #000,    -1px 1px 0 #000, 1px 1px 0 #000;'>Save the Amazon</h4>
+					
+
+						</div>
+						
+<!-- MAPS AND STUFF -->
+<!--
+AIzaSyCyBZLMZ77b7C-d6_Ft3ZvUX0UbkFHMsk0 
+-->
+
+
+
+
+
+  <div id="map77" style=' width: 50%; height: 10%; '></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+    <div class="input-group-addon"><i style='width: 1em;' class="fa fa-money" aria-hidden="true"></i></div>
+    <input type="text" class="form-control" id="stake_amount" placeholder="EUR stake amount">
+  </div>
+
+<br>
+  <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+    <div class="input-group-addon"><i style='width: 1em;' class="fa fa-user" aria-hidden="true"></i></div>
+    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Your Name">
+  </div>
+
+<br>
+<center>
+  <button type="submit" style='text-align: center;' class="btn btn-primary" onClick="javascript:do_stake(Math.random() * (999 - 1) + 1);">I want to protect the forest!</button>
+</center>
+<br>
+
+
+
+
+
+
+
+
+		
+				</div>
+			</div>
+		
+
+
+			<div class="" style='background-color: #EA6153; text-align: center; font-size: 2em;'>
+Rewards EUR <span id='contract_balance'></span>
+		     	</div>
+
+</div>
+
+			<div class="tab_img">
+				<div class="month-graph">
+					<h3>Time left until next payout</h3>
+					<script type="text/javascript" src="js/percircle.js"></script>
+					<div class="circle-grid">
+						<div class="circle-text">
+						<div id="bluecircle" class="c100 p17 big">
+						<span style='color:#555'>7 days</span>
+						<div class="slice">
+						<div class="bar" style="transform: rotate(61.2deg);"></div>
+						<div class="fill"></div>
+						</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+		<div class="goals">
+				
+					<div class="welcome" id="about">
+						<h3>Save the Amazon</h3>
+						<p>Make a living protecting the Amazon</p>
+						   <div class="more">
+								<a href="http://gainforest.org" class="button-tamaya" data-text="GainForest.org"><span>Back to GainForest.org</span></a>
+							</div>
+				
+					</div>
+					<div class="recipes" id="recipes">
+						<h3>Why you should work with us</h3>
+						<div class="col-sm-6 goal-left recipe">
+							<div class="goal-img">
+									<img src="http://gainforest.org/img/portfolio/thumbnails/1.jpg" alt=" " />
+							</div>
+							<div class="goal-info">
+								<h4>Clean air</h4>
+								<p>Help save the forest do good for the atmosphere </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-sm-6 goal-left recipe">
+							<div class="goal-img">
+								<img src="http://gainforest.org/img/portfolio/thumbnails/2.jpg" alt=" " />
+							</div>
+							<div class="goal-info">
+								<h4>Fight climate change</h4>
+								<p>By reducing the CO2 levels</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-sm-6 goal-left recipe">
+							<div class="goal-img">
+								<img src="http://gainforest.org/img/portfolio/thumbnails/3.jpg" alt=" " />
+							</div>
+							<div class="goal-info">
+								<h4>Create local jobs</h4>
+								<p>Help families in underdeveloped countries</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-sm-6 goal-left recipe">
+							<div class="goal-img">
+								<img src="http://gainforest.org/img/portfolio/thumbnails/4.jpg" alt=" " />
+							</div>
+							<div class="goal-info">
+								<h4>Make a positive impact</h4>
+								<p>Create real change</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					
+			</div>
+
+
+
+
+
+
+			
+  </div>
+</div>
+</div>
+
+
+
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/scripts.js"></script>
+
+
+
+
+    <script>
+      var map;
+      function initMap() {
+
+
+      	console.log('hello');
+
+        map = new google.maps.Map(document.getElementById('map77'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyBZLMZ77b7C-d6_Ft3ZvUX0UbkFHMsk0&callback=initMap"
+    async defer></script>
+
+
+
+
+
+</body>
+</html>
